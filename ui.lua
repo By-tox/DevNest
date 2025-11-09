@@ -209,14 +209,6 @@ function DevRect:Create(titleText, descText, opts)
 		if iconId then icon.Image = "rbxassetid://" .. tostring(iconId) end
 		local label = newInstance("TextLabel", {Parent = tabBtn, Size = UDim2.new(1,-50,1,0), Position = UDim2.new(0,45,0,0), Text = name, Font = Enum.Font.GothamBold, TextSize = 14, TextColor3 = Color3.new(1,1,1), BackgroundTransparency = 1, TextXAlignment = Enum.TextXAlignment.Left})
 
-		-- create thumbnail toggle (small image) that closes/opens full UI
-		local thumb = newInstance("ImageButton", {Parent = tabBtn, Size = UDim2.new(0,28,0,28), Position = UDim2.new(1,-40,0.5,-14), BackgroundTransparency = 1})
-		if thumbId then thumb.Image = "rbxassetid://" .. tostring(thumbId) end
-		thumb.MouseButton1Click:Connect(function()
-			self.Open = not self.Open
-			self._Gui.Enabled = self.Open
-		end)
-
 		-- tab click behavior
 		tabBtn.MouseButton1Click:Connect(function()
 			clearContent()
