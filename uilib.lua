@@ -60,6 +60,7 @@ local themes = {
     Header = Color3.fromRGB(28, 29, 34),
     TextColor = Color3.fromRGB(255,255,255),
     ElementColor = Color3.fromRGB(32, 32, 38)
+
 }
 local themeStyles = {
     DarkTheme = {
@@ -119,11 +120,12 @@ local themeStyles = {
         ElementColor = Color3.fromRGB(24, 24, 24)
     },
     Twiware = {
-        SchemeColor = Color3.fromRGB(176, 209, 176),
-        Background = Color3.fromRGB(241, 255, 184),
-        Header = Color3.fromRGB(252, 192, 192),
-        TextColor = Color3.fromRGB(235, 235, 235),
-        ElementColor = Color3.fromRGB(24, 24, 24)
+        SchemeColor = Color3.fromRGB(74, 99, 135),
+        Background = Color3.fromRGB(36, 37, 43),
+        Header = Color3.fromRGB(28, 29, 34),
+        TextColor = Color3.fromRGB(255,255,255),
+        ElementColor = Color3.fromRGB(32, 32, 38)
+
     },
     Serpent = {
         SchemeColor = Color3.fromRGB(0, 166, 58),
@@ -308,6 +310,34 @@ function Kavo.CreateLib(kavName, themeList)
         wait(1)
         ScreenGui:Destroy()
     end)
+	close.Name = "close"
+close.Parent = MainHeader
+close.BackgroundTransparency = 1
+close.Position = UDim2.new(0.95, 0, 0.138, 0)
+close.Size = UDim2.new(0, 21, 0, 21)
+close.ZIndex = 2
+close.Image = "rbxassetid://3926305904"
+close.ImageRectOffset = Vector2.new(284, 4)
+close.ImageRectSize = Vector2.new(24, 24)
+
+local hidden = false
+
+close.MouseButton1Click:Connect(function()
+	if hidden then
+		game.TweenService:Create(Main, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+			Size = UDim2.new(0, 420, 0, 260),
+			Position = UDim2.new(0.5, -210, 0.5, -130),
+			GroupTransparency = 0
+		}):Play()
+		hidden = false
+	else
+		game.TweenService:Create(Main, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
+			Size = UDim2.new(0, 0, 0, 0),
+			GroupTransparency = 1
+		}):Play()
+		hidden = true
+	end
+end)
 
     MainSide.Name = "MainSide"
     MainSide.Parent = Main
