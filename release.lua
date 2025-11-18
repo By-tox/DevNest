@@ -83,10 +83,10 @@ local Themes = {
 
 	DropdownFrame = Color3.fromRGB(0, 0, 0),
 	DropdownHolder = Color3.fromRGB(0, 0, 0),
-	DropdownBorder = Color3.fromRGB(255, 255, 255),
+	DropdownBorder = Color3.fromRGB(0, 0, 0),
 	DropdownOption = Color3.fromRGB(255, 255, 255),
 
-	Keybind = Color3.fromRGB(255, 255, 255),
+	Keybind = Color3.fromRGB(0, 0, 0),
 
 	Input = Color3.fromRGB(0, 0, 0),
 	InputFocused = Color3.fromRGB(20, 20, 20),
@@ -96,7 +96,7 @@ local Themes = {
 	DialogHolder = Color3.fromRGB(0, 0, 0),
 	DialogHolderLine = Color3.fromRGB(255, 255, 255),
 	DialogButton = Color3.fromRGB(0, 0, 0),
-	DialogButtonBorder = Color3.fromRGB(255, 255, 255),
+	DialogButtonBorder = Color3.fromRGB(0, 0, 0),
 	DialogBorder = Color3.fromRGB(255, 255, 255),
 	DialogInput = Color3.fromRGB(0, 0, 0),
 	DialogInputLine = Color3.fromRGB(255, 255, 255),
@@ -121,7 +121,7 @@ local Themes = {
 		InElementBorder = Color3.fromRGB(40, 40, 40),
 		ElementTransparency = 0.95,
 		ToggleSlider = Color3.fromRGB(40, 40, 40),
-		ToggleToggled = Color3.fromRGB(255, 255, 255),
+		ToggleToggled = Color3.fromRGB(0, 0, 0),
 		SliderRail = Color3.fromRGB(40, 40, 40),
 		DropdownFrame = Color3.fromRGB(20, 20, 20),
 		DropdownHolder = Color3.fromRGB(0, 0, 0),
