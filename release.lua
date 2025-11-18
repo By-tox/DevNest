@@ -106,7 +106,7 @@ local Themes = {
 
 	Hover = Color3.fromRGB(255, 255, 255),
 	HoverChange = 0.1,
-	}
+	},
 	AMOLED = {
 		Name = "AMOLED",
 		Accent = Color3.fromRGB(255, 255, 255),
