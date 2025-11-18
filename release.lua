@@ -60,30 +60,30 @@ local Themes = {
 	},
 	Dark = {
 	Name = "Dark",
-	Accent = Color3.fromRGB(0, 0, 0),
+	Accent = Color3.fromRGB(255, 255, 255),
 
 	AcrylicMain = Color3.fromRGB(0, 0, 0),
-	AcrylicBorder = Color3.fromRGB(255, 255, 255),
+	AcrylicBorder = Color3.fromRGB(40, 40, 40),
 	AcrylicGradient = ColorSequence.new(Color3.fromRGB(0, 0, 0), Color3.fromRGB(0, 0, 0)),
 	AcrylicNoise = 0,
 
-	TitleBarLine = Color3.fromRGB(255, 255, 255),
+	TitleBarLine = Color3.fromRGB(60, 60, 60),
 
 	Tab = Color3.fromRGB(255, 255, 255),
 
 	Element = Color3.fromRGB(0, 0, 0),
-	ElementBorder = Color3.fromRGB(255, 255, 255),
-	InElementBorder = Color3.fromRGB(255, 255, 255),
+	ElementBorder = Color3.fromRGB(80, 80, 80),
+	InElementBorder = Color3.fromRGB(120, 120, 120),
 	ElementTransparency = 0,
 
-	ToggleSlider = Color3.fromRGB(0, 0, 0),
-	ToggleToggled = Color3.fromRGB(40, 40, 40),
+	ToggleSlider = Color3.fromRGB(255, 255, 255),
+	ToggleToggled = Color3.fromRGB(0, 0, 0),
 
 	SliderRail = Color3.fromRGB(255, 255, 255),
 
 	DropdownFrame = Color3.fromRGB(0, 0, 0),
 	DropdownHolder = Color3.fromRGB(0, 0, 0),
-	DropdownBorder = Color3.fromRGB(0, 0, 0),
+	DropdownBorder = Color3.fromRGB(80, 80, 80),
 	DropdownOption = Color3.fromRGB(255, 255, 255),
 
 	Keybind = Color3.fromRGB(0, 0, 0),
@@ -94,17 +94,17 @@ local Themes = {
 
 	Dialog = Color3.fromRGB(0, 0, 0),
 	DialogHolder = Color3.fromRGB(0, 0, 0),
-	DialogHolderLine = Color3.fromRGB(255, 255, 255),
+	DialogHolderLine = Color3.fromRGB(40, 40, 40),
 	DialogButton = Color3.fromRGB(0, 0, 0),
-	DialogButtonBorder = Color3.fromRGB(0, 0, 0),
-	DialogBorder = Color3.fromRGB(255, 255, 255),
+	DialogButtonBorder = Color3.fromRGB(120, 120, 120),
+	DialogBorder = Color3.fromRGB(100, 100, 100),
 	DialogInput = Color3.fromRGB(0, 0, 0),
 	DialogInputLine = Color3.fromRGB(255, 255, 255),
 
 	Text = Color3.fromRGB(255, 255, 255),
 	SubText = Color3.fromRGB(200, 200, 200),
 
-	Hover = Color3.fromRGB(255, 255, 255),
+	Hover = Color3.fromRGB(40, 40, 40),
 	HoverChange = 0.1,
 	},
 	AMOLED = {
