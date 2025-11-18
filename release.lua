@@ -60,87 +60,50 @@ local Themes = {
 	},
 	Dark = {
 	Name = "Dark",
-
 	Accent = Color3.fromRGB(255, 255, 255),
-
-	-- خلفيات أساسية
 	AcrylicMain = Color3.fromRGB(0, 0, 0),
-	AcrylicBorder = Color3.fromRGB(255, 255, 255),
+	AcrylicBorder = Color3.fromRGB(50, 50, 50),
 	AcrylicGradient = ColorSequence.new(Color3.fromRGB(0, 0, 0), Color3.fromRGB(0, 0, 0)),
 	AcrylicNoise = 0,
 
-	TitleBarLine = Color3.fromRGB(255, 255, 255),
+	TitleBarLine = Color3.fromRGB(80, 80, 80),
 
-	-- التابات + العناصر
 	Tab = Color3.fromRGB(255, 255, 255),
-	Element = Color3.fromRGB(0, 0, 0),
-	ElementBorder = Color3.fromRGB(255, 255, 255),
-	InElementBorder = Color3.fromRGB(255, 255, 255),
+	Element = Color3.fromRGB(255, 255, 255),
+	ElementBorder = Color3.fromRGB(0, 0, 0),
+	InElementBorder = Color3.fromRGB(120, 120, 120),
 	ElementTransparency = 0,
 
-	-- التوقل
 	ToggleSlider = Color3.fromRGB(255, 255, 255),
-	ToggleToggled = Color3.fromRGB(40, 40, 40),
+	ToggleToggled = Color3.fromRGB(0, 0, 0),
 
-	-- سلايدر
 	SliderRail = Color3.fromRGB(255, 255, 255),
 
-	-- الدروب داون
-	DropdownFrame = Color3.fromRGB(0, 0, 0),
-	DropdownHolder = Color3.fromRGB(0, 0, 0),
-	DropdownBorder = Color3.fromRGB(255, 255, 255),
+	DropdownFrame = Color3.fromRGB(255, 255, 255),
+	DropdownHolder = Color3.fromRGB(20, 20, 20),
+	DropdownBorder = Color3.fromRGB(60, 60, 60),
 	DropdownOption = Color3.fromRGB(255, 255, 255),
 
-	-- الكيبايند
 	Keybind = Color3.fromRGB(255, 255, 255),
 
-	-- الإنبت (Input)
-	Input = Color3.fromRGB(0, 0, 0),
+	Input = Color3.fromRGB(255, 255, 255),
 	InputFocused = Color3.fromRGB(20, 20, 20),
-	InputIndicator = Color3.fromRGB(255, 255, 255),
+	InputIndicator = Color3.fromRGB(200, 200, 200),
 
-	-- الديالوج
-	Dialog = Color3.fromRGB(0, 0, 0),
-	DialogHolder = Color3.fromRGB(0, 0, 0),
-	DialogHolderLine = Color3.fromRGB(255, 255, 255),
-	DialogButton = Color3.fromRGB(0, 0, 0),
-	DialogButtonBorder = Color3.fromRGB(255, 255, 255),
-	DialogBorder = Color3.fromRGB(255, 255, 255),
-	DialogInput = Color3.fromRGB(0, 0, 0),
-	DialogInputLine = Color3.fromRGB(255, 255, 255),
+	Dialog = Color3.fromRGB(20, 20, 20),
+	DialogHolder = Color3.fromRGB(10, 10, 10),
+	DialogHolderLine = Color3.fromRGB(40, 40, 40),
+	DialogButton = Color3.fromRGB(255, 255, 255),
+	DialogButtonBorder = Color3.fromRGB(120, 120, 120),
+	DialogBorder = Color3.fromRGB(100, 100, 100),
+	DialogInput = Color3.fromRGB(255, 255, 255),
+	DialogInputLine = Color3.fromRGB(240, 240, 240),
 
-	-- النصوص
 	Text = Color3.fromRGB(255, 255, 255),
 	SubText = Color3.fromRGB(200, 200, 200),
 
-	-- الهوفر
-	Hover = Color3.fromRGB(255, 255, 255),
-	HoverChange = 0.15,
-	},
-	Darker = {
-		Name = "Darker",
-		Accent = Color3.fromRGB(56, 109, 223),
-		AcrylicMain = Color3.fromRGB(30, 30, 30),
-		AcrylicBorder = Color3.fromRGB(60, 60, 60),
-		AcrylicGradient = ColorSequence.new(Color3.fromRGB(17, 17, 17), Color3.fromRGB(18, 18, 18)),
-		AcrylicNoise = 0.94,
-		TitleBarLine = Color3.fromRGB(65, 65, 65),
-		Tab = Color3.fromRGB(100, 100, 100),
-		Element = Color3.fromRGB(70, 70, 70),
-		ElementBorder = Color3.fromRGB(25, 25, 25),
-		InElementBorder = Color3.fromRGB(55, 55, 55),
-		ElementTransparency = 0.82,
-		DropdownFrame = Color3.fromRGB(120, 120, 120),
-		DropdownHolder = Color3.fromRGB(35, 35, 35),
-		DropdownBorder = Color3.fromRGB(25, 25, 25),
-		Dialog = Color3.fromRGB(35, 35, 35),
-		DialogHolder = Color3.fromRGB(25, 25, 25),
-		DialogHolderLine = Color3.fromRGB(20, 20, 20),
-		DialogButton = Color3.fromRGB(35, 35, 35),
-		DialogButtonBorder = Color3.fromRGB(55, 55, 55),
-		DialogBorder = Color3.fromRGB(50, 50, 50),
-		DialogInput = Color3.fromRGB(45, 45, 45),
-		DialogInputLine = Color3.fromRGB(120, 120, 120),
+	Hover = Color3.fromRGB(200, 200, 200),
+	HoverChange = 0.1,
 	},
 	AMOLED = {
 		Name = "AMOLED",
