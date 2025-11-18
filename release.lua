@@ -60,7 +60,7 @@ local Themes = {
 	},
 	Dark = {
 	Name = "Dark",
-	Accent = Color3.fromRGB(255, 255, 255),
+	Accent = Color3.fromRGB(0, 0, 0),
 
 	AcrylicMain = Color3.fromRGB(0, 0, 0),
 	AcrylicBorder = Color3.fromRGB(255, 255, 255),
@@ -76,7 +76,7 @@ local Themes = {
 	InElementBorder = Color3.fromRGB(255, 255, 255),
 	ElementTransparency = 0,
 
-	ToggleSlider = Color3.fromRGB(255, 255, 255),
+	ToggleSlider = Color3.fromRGB(0, 0, 0),
 	ToggleToggled = Color3.fromRGB(40, 40, 40),
 
 	SliderRail = Color3.fromRGB(255, 255, 255),
