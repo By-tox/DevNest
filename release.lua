@@ -58,8 +58,8 @@ local Themes = {
 		"Bloody",
 		"Arctic"
 	},
-	BlackWhite = {
-	Name = "BlackWhite",
+	Dark = {
+	Name = "Dark",
 
 	Accent = Color3.fromRGB(255, 255, 255),
 
