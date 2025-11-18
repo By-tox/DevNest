@@ -61,50 +61,52 @@ local Themes = {
 	Dark = {
 	Name = "Dark",
 	Accent = Color3.fromRGB(255, 255, 255),
+
 	AcrylicMain = Color3.fromRGB(0, 0, 0),
-	AcrylicBorder = Color3.fromRGB(50, 50, 50),
+	AcrylicBorder = Color3.fromRGB(255, 255, 255),
 	AcrylicGradient = ColorSequence.new(Color3.fromRGB(0, 0, 0), Color3.fromRGB(0, 0, 0)),
 	AcrylicNoise = 0,
 
-	TitleBarLine = Color3.fromRGB(80, 80, 80),
+	TitleBarLine = Color3.fromRGB(255, 255, 255),
 
 	Tab = Color3.fromRGB(255, 255, 255),
-	Element = Color3.fromRGB(255, 255, 255),
-	ElementBorder = Color3.fromRGB(0, 0, 0),
-	InElementBorder = Color3.fromRGB(120, 120, 120),
+
+	Element = Color3.fromRGB(0, 0, 0),
+	ElementBorder = Color3.fromRGB(255, 255, 255),
+	InElementBorder = Color3.fromRGB(255, 255, 255),
 	ElementTransparency = 0,
 
 	ToggleSlider = Color3.fromRGB(255, 255, 255),
-	ToggleToggled = Color3.fromRGB(0, 0, 0),
+	ToggleToggled = Color3.fromRGB(40, 40, 40),
 
 	SliderRail = Color3.fromRGB(255, 255, 255),
 
-	DropdownFrame = Color3.fromRGB(255, 255, 255),
-	DropdownHolder = Color3.fromRGB(20, 20, 20),
-	DropdownBorder = Color3.fromRGB(60, 60, 60),
+	DropdownFrame = Color3.fromRGB(0, 0, 0),
+	DropdownHolder = Color3.fromRGB(0, 0, 0),
+	DropdownBorder = Color3.fromRGB(255, 255, 255),
 	DropdownOption = Color3.fromRGB(255, 255, 255),
 
 	Keybind = Color3.fromRGB(255, 255, 255),
 
-	Input = Color3.fromRGB(255, 255, 255),
+	Input = Color3.fromRGB(0, 0, 0),
 	InputFocused = Color3.fromRGB(20, 20, 20),
-	InputIndicator = Color3.fromRGB(200, 200, 200),
+	InputIndicator = Color3.fromRGB(255, 255, 255),
 
-	Dialog = Color3.fromRGB(20, 20, 20),
-	DialogHolder = Color3.fromRGB(10, 10, 10),
-	DialogHolderLine = Color3.fromRGB(40, 40, 40),
-	DialogButton = Color3.fromRGB(255, 255, 255),
-	DialogButtonBorder = Color3.fromRGB(120, 120, 120),
-	DialogBorder = Color3.fromRGB(100, 100, 100),
-	DialogInput = Color3.fromRGB(255, 255, 255),
-	DialogInputLine = Color3.fromRGB(240, 240, 240),
+	Dialog = Color3.fromRGB(0, 0, 0),
+	DialogHolder = Color3.fromRGB(0, 0, 0),
+	DialogHolderLine = Color3.fromRGB(255, 255, 255),
+	DialogButton = Color3.fromRGB(0, 0, 0),
+	DialogButtonBorder = Color3.fromRGB(255, 255, 255),
+	DialogBorder = Color3.fromRGB(255, 255, 255),
+	DialogInput = Color3.fromRGB(0, 0, 0),
+	DialogInputLine = Color3.fromRGB(255, 255, 255),
 
 	Text = Color3.fromRGB(255, 255, 255),
 	SubText = Color3.fromRGB(200, 200, 200),
 
-	Hover = Color3.fromRGB(200, 200, 200),
+	Hover = Color3.fromRGB(255, 255, 255),
 	HoverChange = 0.1,
-	},
+	}
 	AMOLED = {
 		Name = "AMOLED",
 		Accent = Color3.fromRGB(255, 255, 255),
