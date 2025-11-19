@@ -271,44 +271,45 @@ function Library:CreateWindow(hubname)
     toggle_corner.Parent = Toggle
 
     toggle_Image.Name = "toggle_Image"
-    toggle_Image.Parent = Toggle
-    toggle_Image.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    toggle_Image.BackgroundTransparency = 1.000
-    toggle_Image.BorderColor3 = Color3.fromRGB(0, 0, 0)
-    toggle_Image.BorderSizePixel = 0
-    toggle_Image.Size = UDim2.new(0, 40, 0, 40)
-    toggle_Image.Image = "rbxassetid://6031094678"
-    toggle_Image.ImageColor3 = Color3.fromRGB(0, 0, 0)
+toggle_Image.Parent = Toggle
+toggle_Image.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+toggle_Image.BackgroundTransparency = 1.000
+toggle_Image.BorderColor3 = Color3.fromRGB(0, 0, 0)
+toggle_Image.BorderSizePixel = 0
+toggle_Image.Size = UDim2.new(0, 40, 0, 40)
+toggle_Image.Image = "rbxassetid://138449448558679"
+toggle_Image.ImageColor3 = Color3.fromRGB(0, 0, 0)
 
-    local minimizetog = false
-    MInimize_Button.MouseButton1Click:Connect(function()
-        if minimizetog then
-            utility:Tween(Body, {Size = UDim2.new(0, 600, 0, 350)}, .3)
-            utility:Tween(MInimize_Button, {Rotation = -315}, .3)
-        else
-            utility:Tween(Body, {Size = UDim2.new(0, 600, 0, 32)}, .3)
-            utility:Tween(MInimize_Button, {Rotation = 360}, .3)
-        end
-        minimizetog =  not minimizetog
-    end)
+local minimizetog = false
+MInimize_Button.MouseButton1Click:Connect(function()
+    if minimizetog then
+        utility:Tween(Body, {Size = UDim2.new(0, 600, 0, 350)}, .3)
+        utility:Tween(MInimize_Button, {Rotation = -315}, .3)
+    else
+        utility:Tween(Body, {Size = UDim2.new(0, 600, 0, 32)}, .3)
+        utility:Tween(MInimize_Button, {Rotation = 360}, .3)
+    end
+    minimizetog = not minimizetog
+end)
 
-    local togimage = false
-    toggle_Image.MouseEnter:Connect(function()
-        utility:Tween(Toggle, {BackgroundColor3 = Color3.fromRGB(30, 30, 30)}, .15)
-    end)
+local togimage = false
 
-    toggle_Image.MouseLeave:Connect(function()
-        utility:Tween(Toggle, {BackgroundColor3 = Color3.fromRGB(60, 60, 60)}, .15)
-    end)
+toggle_Image.MouseEnter:Connect(function()
+    utility:Tween(Toggle, {BackgroundColor3 = Color3.fromRGB(30, 30, 30)}, .15)
+end)
 
-    toggle_Image.MouseButton1Click:Connect(function()
-        if togimage then
-            Body.Visible = true
-        else
-            Body.Visible = false
-        end
-        togimage = not togimage;
-    end)
+toggle_Image.MouseLeave:Connect(function()
+    utility:Tween(Toggle, {BackgroundColor3 = Color3.fromRGB(60, 60, 60)}, .15)
+end)
+
+toggle_Image.MouseButton1Click:Connect(function()
+    if togimage then
+        Body.Visible = true
+    else
+        Body.Visible = false
+    end
+    togimage = not togimage
+end)
 
     -- Scripts:
     local function HJUAU_fake_script() -- Body.BodyObject 
