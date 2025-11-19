@@ -277,8 +277,8 @@ function Library:CreateWindow(hubname)
     toggle_Image.BorderColor3 = Color3.fromRGB(0, 0, 0)
     toggle_Image.BorderSizePixel = 0
     toggle_Image.Size = UDim2.new(0, 40, 0, 40)
-    toggle_Image.Image = "rbxassetid://9463291982"
-    toggle_Image.ImageColor3 = Color3.fromRGB(255, 0, 0)
+    toggle_Image.Image = "rbxassetid://6031094678"
+    toggle_Image.ImageColor3 = Color3.fromRGB(0, 0, 0)
 
     local minimizetog = false
     MInimize_Button.MouseButton1Click:Connect(function()
