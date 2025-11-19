@@ -184,7 +184,7 @@ function Library:CreateWindow(hubname)
     end)
 
     Discord.MouseButton1Click:Connect(function()
-        (setclipboard or toclipboard)("https://discord.gg/25ms")
+        (setclipboard or toclipboard)("https://discord.gg/2HuhEfDX6")
         wait(.1)
         game:GetService("StarterGui"):SetCore("SendNotification",{
             Title = "Discord",
@@ -815,7 +815,7 @@ function Library:CreateWindow(hubname)
                     ImageButton.BorderSizePixel = 0
                     ImageButton.Position = UDim2.new(0, 242, 0, 1)
                     ImageButton.Size = UDim2.new(0, 21, 0, 22)
-                    ImageButton.Image = "rbxassetid://14834203285"
+                    ImageButton.Image = "rbxassetid://5726381268"
 
                     if default then
                         for i,v in pairs(list) do
