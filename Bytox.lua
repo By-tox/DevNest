@@ -277,7 +277,7 @@ function Library:CreateWindow(hubname)
     toggle_Image.BorderColor3 = Color3.fromRGB(0, 0, 0)
     toggle_Image.BorderSizePixel = 0
     toggle_Image.Size = UDim2.new(0, 40, 0, 40)
-    toggle_Image.Image = "http://www.roblox.com/asset/?id=5726381268"
+    toggle_Image.Image = "http://www.roblox.com/asset/?id=93144039493714"
     toggle_Image.ImageColor3 = Color3.fromRGB(255, 0, 0)
 
     local minimizetog = false
